@@ -6,7 +6,12 @@
     <artifactId>javapoc</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    
     <distributionManagement>
         <repository>
             <id>github</id>
